@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+}
+.item {
+  flex-basis: calc((100% - 90px) / 4);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.link {
+  display: block;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: start;
+  text-decoration: none;
+}
+.item:hover {
+  box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
+    0 0 60px #2db2ff;
+}
+.title {
+  margin: 8px 0;
+  padding: 0 12px;
+}
+
+.icon {
+  width: 100%;
+  height: 350px;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+}

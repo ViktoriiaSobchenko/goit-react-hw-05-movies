@@ -1,0 +1,44 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+.header {
+  top: 0;
+  position: sticky;
+  z-index: 1100;
+  height: 80px;
+  padding: 12px 40px;
+  background-color: #350048;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.link {
+  display: block;
+  width: 120px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+.link:hover {
+  letter-spacing: 2px;
+  box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
+    0 0 60px #2db2ff;
+}
